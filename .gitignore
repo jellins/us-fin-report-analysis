@@ -1,0 +1,9 @@
+# 运行期产物（脚本自动生成，不入库）
+__pycache__/
+*.pyc
+.DS_Store
+scripts/.cache/
+scripts/receipts/
+
+# 一次性探测/补丁脚本（本地保留，不入开源库）
+scripts/_*.py
